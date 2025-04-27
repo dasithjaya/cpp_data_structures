@@ -17,7 +17,7 @@ using namespace std;
 
 // 1) ->
 // vector<int> v;
-// v,reserve(100);
+// v.reserve(100);
 
 void printArray(vector<int> &arr){
     for (int i = 0; i < arr.size(); i++){
@@ -79,7 +79,7 @@ int main(){
     vector<int> v;
 
     // To reduce the double capacity
-    v.reserve(100);
+    v.reserve(5);
 
     int n;
     cin >> n;
